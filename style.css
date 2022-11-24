@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0d1a2d;
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+    width: 1440px;
+   position: absolute;
+}
+.condainer{
+    background-color: #15273f;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 900px;
+    width: 500px;
+    /* align-items: center; */
+    justify-content: space-around;
+    border-radius: 20px;
+    position: relative;
+    
+    top: 500px;
+    left: 1200px;
+
+}
+.condainer .pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+   margin-top: 20px;
+   margin-left: 45px;
+}
+.more{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border-color: white 3px;
+    margin-left: 50px;
+    
+}
+.new{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 40px;
+}
+.icon{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.icon img{
+    height: 30px;
+    margin-left: 50px;
+   
+}
+li{
+    font-size: 20px;
+    
+}
+h1{
+    font-size: 30px;
+    margin-left: 50px;
+    letter-spacing: 2px;
+
+}
+.pop{
+    font-size: 22px;
+    margin-left: 50px;
+    color: #6a7f9b;
+   
+}
+.new p{
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.icon .nop{
+    color:#1cf9f8 ;
+    font-size: 20px;
+    font-weight: bold;
+   
+
+}
+hr{
+    width: 400px;
+    margin-left: 50px;
+}
